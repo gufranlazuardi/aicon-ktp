@@ -1,6 +1,6 @@
 <script lang="ts">
 import Button from "@/components/ui/button/Button.vue";
-import Layout from "../components/Layout.vue";
+import Layout from "@/components/Layout.vue";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { Dialog, DialogContent, DialogFooter, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
 import { ref, computed } from "vue";
