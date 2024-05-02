@@ -14,10 +14,6 @@ const router = createRouter({
       path: "/sample",
       component: Sample,
     },
-    {
-      path: "/sampledua",
-      component: SampleDua,
-    },
   ],
 });
 
