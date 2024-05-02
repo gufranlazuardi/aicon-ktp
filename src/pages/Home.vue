@@ -240,5 +240,3 @@ export default {
     </div>
   </Layout>
 </template>
-
-<!-- api : https://private-46841d-dummybljr.apiary-mock.com/incentive_api/api/v1/dropdown_branch -->
