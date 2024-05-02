@@ -1,6 +1,5 @@
 <script lang="ts">
 import Button from "@/components/ui/button/Button.vue";
-import Layout from "@/components/Layout.vue";
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
 import { Dialog, DialogContent, DialogFooter, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
 import { ref, computed } from "vue";
@@ -16,7 +15,7 @@ interface Data {
 
 export default {
   components: {
-    Layout,
+    
     Button,
     Table,
     TableBody,
@@ -128,7 +127,7 @@ export default {
 </script>
 
 <template>
-  <Layout>
+
     <div class="flex flex-col mt-10">
       <p class="mx-auto text-xl">Table of ID</p>
 
@@ -238,5 +237,5 @@ export default {
         </Table>
       </div>
     </div>
-  </Layout>
+  
 </template>
